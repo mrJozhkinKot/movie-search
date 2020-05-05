@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Movie Search App" />
+    <meta name="author" lang="en" content="Julia Shchuklina" />
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link href="style.css" rel="stylesheet"></head>
+
+<body>
+    <header>
+        <span>Movie Search</span>
+        <i class="fas fa-tape"></i>
+    </header>
+
+
+    <main>
+        <div class="overlay"></div>
+        <div class="search">
+            <div class="search-field">
+                <i class="fas fa-search"></i>
+                <input class="search_input" type="text" placeholder="Start search movie..." autocomplete="off"
+                    autofocus>
+                <div class="clear-button"><i class="far fa-times-circle"></i></div>
+                <div class="loader"> </div>
+                <div class="keyboard-button"><i class="far fa-keyboard fa-2x"></i></div>
+
+            </div>
+            <div class="search-button">Search</div>
+       </div>
+       
+      
+        <div class="message"></div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div>RS School 2020q1</div>
+        <div>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/mrJozhkinKot">mrJozhkinKot</a>
+        </div>
+    </footer>
+
+<script type="text/javascript" src="index.js"></script></body>
+
+</html>
